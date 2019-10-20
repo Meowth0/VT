@@ -33,7 +33,6 @@
 				<question points="123" answers="z x c" rightAnswer="c"/>
 				<question points="123" answers="z x c" rightAnswer="c"/>
 				<question points="123" answers="z x c" rightAnswer="c"/>
-				<question points="123" answers="z x c" rightAnswer="c"/>
 			</questions>
 			<psychotype value="abc"/>
 		</psychologicalTest>

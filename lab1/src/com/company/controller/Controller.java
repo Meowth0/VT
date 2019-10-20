@@ -9,14 +9,15 @@ import com.company.view.View;
 import java.util.List;
 
 public class Controller {
-    private SAXGetter saxProcessing = new SAXGetter();
+    private SAXGetter saxGetter = new SAXGetter();
     private View view = new ConsoleView();
     private TestsProcessing testsProcessing;
+    private List<Test> tests;
 
     public void execute(){
-        List<Test> tests = saxProcessing.getData();
+        tests = saxGetter.getData();
         testsProcessing = new TestsProcessing(tests);
         testsProcessing.SortTests();
-        view.ShowTests(tests);
+        view.ShowTests(testsProcessing.SearchByKindOfTest("languageTest"));
     }
 }
