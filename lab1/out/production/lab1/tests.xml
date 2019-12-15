@@ -1,0 +1,58 @@
+<tests>
+	<normalTests>
+		<normalTest>
+			<questions>
+				<question points="4" answers="qw we er" rightAnswer="er"/>
+				<question points="2" answers="1 2 3" rightAnswer="3"/>
+				<question points="5" answers="qw ww we" rightAnswer="ww"/>
+			</questions>
+		</normalTest>
+		<normalTest>
+			<questions>
+				<question points="12" answers="qw we er" rightAnswer="er"/>
+				<question points="11" answers="1 2 3" rightAnswer="3"/>
+			</questions>
+		</normalTest>
+	</normalTests>
+	
+	<iqTests>
+		<iqTest>
+			<questions>
+				<question points="1" answers="11 22 33" rightAnswer="11"/>
+				<question points="1" answers="11 22 33" rightAnswer="11"/>
+				<question points="1" answers="11 22 33" rightAnswer="11"/>
+				<question points="1" answers="11 22 33" rightAnswer="11"/>
+			</questions>
+			<iq value="34"/>
+		</iqTest>
+	</iqTests>
+	
+	<psychologicalTests>
+		<psychologicalTest>
+			<questions>
+				<question points="123" answers="z x c" rightAnswer="c"/>
+				<question points="123" answers="z x c" rightAnswer="c"/>
+				<question points="123" answers="z x c" rightAnswer="c"/>
+			</questions>
+			<psychotype value="abc"/>
+		</psychologicalTest>
+	</psychologicalTests>
+	
+	<mathTests>
+		<mathTest>
+			<questions>
+				<question points="55" answers="r ty yr" rightAnswer="yr"/>
+			</questions>
+			<levelOfDifficult value="5"/>
+		</mathTest>
+	</mathTests>
+	
+	<languageTests>
+		<languageTest>
+			<questions>
+				<question points="34" answers="2 3 4" rightAnswer="4"/>
+			</questions>
+			<language value="eng"/>
+		</languageTest>
+	</languageTests>
+</tests>

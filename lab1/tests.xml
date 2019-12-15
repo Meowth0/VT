@@ -1,0 +1,38 @@
+<tests>
+	<normalTests>
+		<normalTest>
+			<questions count="7" />
+		</normalTest>
+		<normalTest>
+			<questions count="5" />
+		</normalTest>
+	</normalTests>
+	
+	<iqTests>
+		<iqTest>
+			<questions count="12" />
+			<iq value="34"/>
+		</iqTest>
+	</iqTests>
+	
+	<psychologicalTests>
+		<psychologicalTest>
+			<questions count="99"/>
+			<psychotype value="abc"/>
+		</psychologicalTest>
+	</psychologicalTests>
+	
+	<mathTests>
+		<mathTest>
+			<questions count="111"/>
+			<levelOfDifficult value="5"/>
+		</mathTest>
+	</mathTests>
+	
+	<languageTests>
+		<languageTest>
+			<questions count="11" />
+			<language value="eng"/>
+		</languageTest>
+	</languageTests>
+</tests>
