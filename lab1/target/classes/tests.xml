@@ -32,7 +32,7 @@
 	<languageTests>
 		<languageTest>
 			<questions count="11" />
-			<language value="eng"/>
+			<language value="12"/>
 		</languageTest>
 	</languageTests>
 </tests>

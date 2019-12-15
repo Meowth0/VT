@@ -1,0 +1,6 @@
+[Test, 7, -]
+[Test, 5, -]
+[IQTest, 12, 34]
+[PsychologicalTest, 99, abc]
+[MathTest, 111, 5]
+[LanguageTest, 11, eng]
